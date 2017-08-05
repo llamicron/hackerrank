@@ -14,14 +14,12 @@ def solve(a, b)
   return [a_points, b_points]
 end
 
-a0, a1, a2 = gets.strip.split(' ')
-a0 = a0.to_i
-a1 = a1.to_i
-a2 = a2.to_i
-b0, b1, b2 = gets.strip.split(' ')
-b0 = b0.to_i
-b1 = b1.to_i
-b2 = b2.to_i
+a0 = ARGV[0].to_i
+a1 = ARGV[1].to_i
+a2 = ARGV[2].to_i
+b0 = ARGV[3].to_i
+b1 = ARGV[4].to_i
+b2 = ARGV[5].to_i
 result = solve([a0, a1, a2], [b0, b1, b2])
 print result.join(" ")
 

@@ -3,9 +3,11 @@ pos = 0
 neg = 0
 zeroes = 0
 
+import sys
+
 # Size of the array
-arr_size = int(input())
-arr = [int(x) for x in raw_input().strip().split(" ")]
+arr = [int(x) for x in sys.argv[1].strip().split(" ")]
+arr_size = len(arr)
 # arr_size = 11
 # arr = [1, 2, 3, 4, 5, -6, -7, -8, -9, 0, 0]
 

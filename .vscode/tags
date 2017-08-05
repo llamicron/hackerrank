@@ -4,4 +4,17 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+arr	../mini_max/mini_max.py	/^arr = list(map(int, sys.argv[1].split(" ")))$/;"	kind:variable	line:4
+arr	../plus_minus/plus_minus.py	/^arr = [int(x) for x in sys.argv[1].strip().split(" ")]$/;"	kind:variable	line:9
+arr_size	../plus_minus/plus_minus.py	/^arr_size = len(arr)$/;"	kind:variable	line:10
+mini_max.py	../mini_max/mini_max.py	1;"	kind:file	line:1
+neg	../plus_minus/plus_minus.py	/^neg = 0$/;"	kind:variable	line:3
 plus_minus.py	../plus_minus/plus_minus.py	1;"	kind:file	line:1
+pos	../plus_minus/plus_minus.py	/^pos = 0$/;"	kind:variable	line:2
+ratioes	../plus_minus/plus_minus.py	/^ratioes = {$/;"	kind:variable	line:22
+size	../staircase/staircase.py	/^size = int(raw_input().strip())$/;"	kind:variable	line:3
+staircase	../staircase/staircase.py	/^staircase = []$/;"	kind:variable	line:5
+staircase.py	../staircase/staircase.py	1;"	kind:file	line:1
+sys	../mini_max/mini_max.py	/^import sys$/;"	kind:namespace	line:2
+sys	../plus_minus/plus_minus.py	/^import sys$/;"	kind:namespace	line:6
+zeroes	../plus_minus/plus_minus.py	/^zeroes = 0$/;"	kind:variable	line:4
